@@ -484,6 +484,7 @@ address {
   max-width: 264px;
 }
 .footer-social-container {
+  margin-right: 80px;
 }
 .footer-social-text {
   color: #fff;
@@ -525,6 +526,62 @@ address {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31d0aa;
+}
+.footer-form-text {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Roboto;
+  margin-bottom: 16px;
+}
+.footer-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.footer-form-wrap {
+}
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  flex-shrink: 0;
+  background-color: inherit;
+  padding: 8px 0 8px 16px;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.15));
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.footer-button {
+  background-color: #4d5ae5;
+  padding: 8px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  min-width: 165px;
+  height: 40px;
+}
+.footer-button:hover,
+.footer-button:focus {
+  background-color: #404bbf;
+}
+.footer-button-icon {
+  fill: #ffffff;
 }
 
 /* ==================footer end=========== */
@@ -585,9 +642,11 @@ address {
 }
 .modal-title {
   color: #2e2f42;
-
+  font-size: 16px;
   padding-top: 72px;
-
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -695,7 +754,6 @@ address {
   color: #4d5ae5;
 }
 .modal-submit-btn {
-  margin-top: 24px;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -704,6 +762,7 @@ address {
   text-align: center;
   cursor: pointer;
   margin: 0 auto;
+  margin-top: 24px;
   color: #fff;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
